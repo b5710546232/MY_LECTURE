@@ -41,10 +41,9 @@
   <h2><a href="2016/06/19/machinelearnning_lecture01/">MachineLearnning_Lecture01</a> <span>Jun 19</span></h2>
   <!-- use article.summary(250) if you have Nokogiri available to show just
        the first 250 characters -->
-  <ul>
-  <li>สอนเบสิกให้รู้ศัพท์ทางด้านนี้ ไม่เน้นดีเทล</li>
-  <li>งานอัลกอรัวๆ ไม่มีโค้ด</li>
-</ul>
+  <p>เทสๆ
+- สอนเบสิกให้รู้ศัพท์ทางด้านนี้ ไม่เน้นดีเทล
+- งานอัลกอรัวๆ ไม่มีโค้ด</p>
 
 <h3 id="artificial-intelligence">ปัญญาประดิษฐ์ (Artificial intelligence)</h3>
 
