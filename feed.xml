@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2016-06-20T13:53:00+07:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>MachineLearnning_Lecture02</title>
+    <link rel="alternate" href="http://blog.url.com/2016/06/20/machinelearnning_lecture02/"/>
+    <id>http://blog.url.com/2016/06/20/machinelearnning_lecture02/</id>
+    <published>2016-06-20T13:53:00+07:00</published>
+    <updated>2016-06-20T13:54:26+07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;ul&gt;
+  &lt;li&gt;test&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;test&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;test&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;test&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;test&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;test&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;test&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;test* test&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>MachineLearnning_Lecture01</title>
+    <link rel="alternate" href="http://blog.url.com/2016/06/19/machinelearnning_lecture01/"/>
+    <id>http://blog.url.com/2016/06/19/machinelearnning_lecture01/</id>
+    <published>2016-06-19T18:46:00+07:00</published>
+    <updated>2016-06-19T20:50:37+07:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;ul&gt;
+  &lt;li&gt;สอนเบสิกให้รู้ศัพท์ทางด้านนี้ ไม่เน้นดีเทล&lt;/li&gt;
+  &lt;li&gt;งานอัลกอรัวๆ ไม่มีโค้ด&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="artificial-intelligence"&gt;ปัญญาประดิษฐ์ (Artificial intelligence)&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;เช่น QA(Question Answering System)(siri, &lt;a href="https://www.techtalkthai.com/ibm-watson-cognitive-computing-when-computers-act-as-humans/"&gt;ibm&lt;/a&gt; watson), บอทเกม(alphago, หมากรุก), robot(asimo), รถยนต์ขับเคลื่อนอัตโนมัติ (มันควรจะตัดสินใจได้ว่าควรจะเบรคไหม ทำให้มันสามารถคิดได้เหมือนเรา)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;คือ สามารถตัดสินใจได้ คิดได้ เหมือนมนุษย์&lt;/li&gt;
+  &lt;li&gt;เน้นในเรื่องของความคิด ทำให้สิ่งที่ไม่มีชีวิต
+คิด take action อะไร หรือกระทำได้เหมือนมนุษย์&lt;/li&gt;
+  &lt;li&gt;ประเภทของ AI มี 4 ประเภทหลัก&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;
+&lt;img src="/images/machinelearning-lect-01/table00.png " alt="Drawing" style="width: 500px;" /&gt;
+&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- url('/images/home-bg.jpg') --&gt;
+&lt;center&gt;
+&lt;img src="/images/machinelearning-lect-01/image02.png " alt="Drawing" style="width: 350px;" /&gt;
+&lt;/center&gt;
+&lt;!-- ![image 02 ]( /images/machinelearning-lect-01/image02.png ) --&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;reasoning หาเหตุผล￼&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;expert system สามารถตอบคำถามในเรื่องนั้นได้อัตโนมัติ&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;automate planning ระบบวางแผนอัตโนมัติ เช่น การเลือกเส้นทางของรถยนต์, ระบบการแก้ปัญหาแฉพาะหน้า (เช่น เจอทางตัน)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;knowledge representation การแทนความรู้ให้คอมประมวลผลได้ เราจะต้องทำให้มันประหยัดที่ ใช่ง่าย ข้อมูลเก่าประสาน ผสมข้อมูลเดิมได้&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;motion and manipulation กลไกการเคลื่อนไหว&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;machine learning นำ history มาอธิบายกฎเกณฑ์&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id="machine-learning-3-"&gt;machine learning 3 ประเภท&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Supervised learning เรียนรู้แบบมีคนช่วยสอน, การนำdata ไปผสมกับ template(เช่น บอกว่าเหตุการณ์แบบนี้คือฝนตกนะ) เพื่อการ predict (ต้องมี history เก่าๆ เช่น
+    &lt;ul&gt;
+      &lt;li&gt;feature คุณลักษณะต่างๆ เช่น ลม(ตอนเช้า กลางวัน เย็น) แดด รวมกันเป็น feature vector&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;class ผลของการ predict ในแต่ละวัน -&amp;gt; machine
+  จะเรียนรู้จากข้อมูลเก่าเหล่านี้&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[   …  ] = feature&lt;/p&gt;
+
+&lt;p&gt;[   …  ]  → class1  ฝนตก&lt;/p&gt;
+
+&lt;p&gt;[   …  ]  → class2  ฝนไม่ตก&lt;/p&gt;
+
+&lt;p&gt;Vector ของ feature
+  1 elements คือ ฝนตกหรือเปล่า มีความชื้นเท่าไร&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Unsupervised learning เราไม่ต้องสอนมัน เราแค่โยนข้อมูลให้เครื่องแบ่งข้อมูลให้ แล้วดูจากลักษณะ
+  Example : โยนข้อมูลมาว่า
+  { ผมยาว , ใส่เสื้อแขนยาว , ใส่กระโปรง} , { ผมสั้น,เสื้อแขนยาว ,ใส่กางเกง}
+  ระบบก็จะพยายามเรียน และแบ่ง class มา เราก็จะไปหาความหมายของมัน
+  อย่าง กลุ่มที่1 ใส่กระโปรง   กลุ่มที่2ใส่กางเกง
+  1+2=Semi-supervised learning ไกด์ก่อนแล้วให้มันทำส่วนที่ไม่ไกด์&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reinforcement learning เอาผลการทำนายบังคับให้มันเรียน ให้มันทำนายแล้วบอกว่าอะไรใช่ไม่ใช่ ซึ่งจะทำให้มันเก่งขึ้น&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id="algorithm"&gt;Algorithm&lt;/h3&gt;
+
+&lt;h4 id="supervised-learning"&gt;supervised learning&lt;/h4&gt;
+&lt;p&gt;เราจะนำไปทำนายการตัดสินใจ&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;decision tree ต้นไม้ที่ใช้ในการตัดสินใจ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+  &lt;img src="/images/machinelearning-lect-01/image00.png " alt="Drawing" style="width: 700px;" /&gt;
+  &lt;/center&gt;
+
+&lt;p&gt;&lt;!-- ![image 02 ]( /images/machinelearning-lect-01/image00.png ) --&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;เป็น เส้นทางการตัดสินใจ โดยข้อมูลสอนระบบ แล้วระบบจะสร้างเส้นทางออกมา
+  ฝนตก/ไม่ตก เป็น categorical&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;deep learning ก็คือ neural networks แต่ว่า มี&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;** hidden layer หลายชั้น จาก ปกติ neural networks มี  layer เดียว **&lt;/p&gt;
+
+&lt;p&gt;** hidden layer -&amp;gt;node ที่ไม่ได้ติดต่อ input กับ output **&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Artificial NN(Artificial neural network) ถอดแบบการเรียนรู้ของคนมาเป็นกฎแบบคอม คอมจะมีความเชื่อมโยงกันไปอย่างซับซ้อน&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+  &lt;img src="/images/machinelearning-lect-01/image03.png " alt="Drawing" style="width: 700px;" /&gt;
+  &lt;/center&gt;
+
+&lt;p&gt;&lt;a href="http://futurehumanevolution.com/artificial-intelligence-future-human-evolution/artificial-neural-networks"&gt;http://futurehumanevolution.com/artificial-intelligence-future-human-evolution/artificial-neural-networks
+  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;คล้ายๆการเชื่อมโยงของเซลล์ประสาท เพิ่ม hidden layer ไปเรื่อยๆ
+  (พวกนี้จำลองการทำงานของเซลล์ประสาท ที่จะมี dendrite ขาเข้า กับ axon ขาออก)
+  - kNN
+  - naive bayes
+  - svm
+  - random forest tree หลายๆต้น
+  - GA (genetics algorithm) มองว่าข้อมูลเป็นสาย DNA ที่มา Cross/ไขว้ กัน ได้ข้อมูลสายใหม่ ทำหลายๆครั้ง ข้อมูลน่าจะดีกว่าเดิม
+  - LDA (Latent Dirichlet allocation)
+  - ACO(ant colony optimization) พลังมดช่วยกันแก้ปัญหา โดยธรรมชาติมดจะปล่อยฟีโรโมนตอนเดิน มดจะหาเส้นทางที่ดีที่สุดโดยการปล่อย มดไปฝูงนึง ดูว่าตัวไหนถึงก่อน เส้นทางที่มีฟีโรโมนที่ถูกปล่อยเยอะที่สุด =มีมดผ่านเยอะสุด จะเป็นเส้นทางที่ดีทีสุด
+  - regression ออกมาเป็น real value (numerical ตัวเลข) ใช้ทำนายหุ้น
+  - HMM ( Hidden Markov Model ) state machine&lt;/p&gt;
+
+&lt;h4 id="unsupervised-learning"&gt;Unsupervised learning&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;k-means&lt;/li&gt;
+  &lt;li&gt;HAC(hierarchical agglomerative Clustering)&lt;/li&gt;
+  &lt;li&gt;STC(Suffix tree clustering)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="reinforcement-learning"&gt;Reinforcement learning&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Q-learning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;apply machine learning กับ data + association rule discovery  —&amp;gt; web mining&lt;/p&gt;
+
+&lt;p&gt;apply machine learning กับ web —&amp;gt; web mining&lt;/p&gt;
+
+&lt;p&gt;apply machine learning กับ social media  —&amp;gt; social media mining&lt;/p&gt;
+
+&lt;h3 id="data-mining"&gt;DATA MINING&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;เอา machine learning มาประยุกต์กับ data&lt;/li&gt;
+  &lt;li&gt;ใส่เทคนิค association rules discovery&lt;/li&gt;
+  &lt;li&gt;แบ่งได้เป็น 3 ประเภท
+    &lt;ol&gt;
+      &lt;li&gt;การหากฎความสัมพันธ์(ของไอเทม) (association rules discovery)&lt;/li&gt;
+      &lt;li&gt;Prediction (Supervised learning)&lt;/li&gt;
+      &lt;li&gt;Description (unsupervised learning) การหาคำอธิบายข้อมูลว่ากลุ่มนี้หมายถึงอะไร&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ไม่ได้สนใจ reinforcement learning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="association-rules-discovery"&gt;Association rules discovery&lt;/h4&gt;
+&lt;p&gt;เป็นสิ่งที่ machine learning ไม่มี&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1993,  Agrawal (of IBM)&lt;/li&gt;
+  &lt;li&gt;การเพิ่มยอดขายของ&lt;/li&gt;
+  &lt;li&gt;เริ่มจากการเก็บข้อมูลว่าลูกค้าซื้ออะไร&lt;/li&gt;
+  &lt;li&gt;สนใจข้อมูล categorical แม้ว่าข้อมูลจะเป็นตัวเลขก็ตาม&lt;/li&gt;
+  &lt;li&gt;รายการที่ลูกค้าซื้อ=transaction
+  พี่วิน = {น้ำดื่ม ,ผ้าอ้อม}&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;พี่ภูมิ={เบียร์, ผ้าอ้อม} พี่ผึ้ง={เบียร์}&lt;/p&gt;
+
+&lt;p&gt;หาโอกาสที่ลูกค้าจะซื้ออะไรกับอะไร ของที่คนซื้อไว้ด้วยกัน แล้วแต่เรา(คน)จะต้องตัดสินใจเองว่าจะไว้ของใกล้กันหรือห่างกัน ระบบนี้ทำหน้าที่ช่วยตัดสินใจให้ แต่ไม่ได้ตัดสินใจให้&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ทุกกฎที่ได้มาจากการสำรวจก็ใช่ว่าจะดี มันจะมีค่า support(บ่งบอกถึงความถี่ มีทั้งต้นและปลาย,จำนวนtransactionที่มีของ/จำนวน transactionทั้งหมด) กับค่า confident (ค่าความเชื่อมั่น,จำนวนการทำตามกฎ) ยิ่งมากยิ่งดี&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+  &lt;img src="/images/machinelearning-lect-01/table02.png " alt="Drawing" style="width: 700px;" /&gt;
+  &lt;/center&gt;
+
+&lt;p&gt;กำหนดให้&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I=sample space={i1,i2,i3,….,im }&lt;/li&gt;
+  &lt;li&gt;T=transaction={t1,t2,t3,…,tn}, ti = subset ของ I&lt;/li&gt;
+  &lt;li&gt;rule x(antecedence)=&amp;gt;y(consequence) โดยที่  x,y  เป็นจะต้องเป็นส่วนหนึ่งของ I และ intersect กันได้เซตว่าง (ไม่อินเตอร์เซคกัน)&lt;/li&gt;
+  &lt;li&gt;itemset เซตของไอเทม {i1,i2,i5}:3-itemset  {i2}:1-itemset&lt;/li&gt;
+  &lt;li&gt;k-itemset ไอเทมเซตขนาด k&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ค่า support คำนวณให้itemset หรือ rule ก็ๆได้
+  เช่น sup({เบียร์})=⅔ 	sup({เบียร์} -&amp;gt; {ผ้าอ้อม}) =1/3&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;ค่า confidence คำนวณให้กฎได้อย่างเดียว&lt;/li&gt;
+  &lt;li&gt;แบ่งเป็นสองขั้นตอน&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+  &lt;img src="/images/machinelearning-lect-01/image04.png " alt="Drawing" style="width: 400px;" /&gt;
+  &lt;/center&gt;
+
+&lt;p&gt;&lt;strong&gt;ตัวอย่าง&lt;/strong&gt;
+  ให้ f1={A,B,C} f2={A,C} f3={A,D} f4={B} ให้ min-confidence=0.5, min-support=0.5&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;เราจะได้ I=sample space = {A,B,C,D}&lt;/li&gt;
+  &lt;li&gt;เราจะหา Frequent itemset discovery ได้จากการหาค่า support ซึ่งไอเทมที่เราจะหานั้นจะได้จากการที่เราวาด lacttice ออกมา&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+  &lt;img src="/images/machinelearning-lect-01/image05.png " alt="Drawing" style="width: 400px;" /&gt;
+  &lt;/center&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ดู frequence ของแต่ละเซต&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ความเร็วในการประมวลผลขึ้นกับจำนวนข้อมูลที่เราเอาไปคำนวณ -&amp;gt; lattice ใหญ่=ช้า&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;เราจะทำการตัดช้อยส์ โดยถ้าไอเทมเล็กที่ frequence สูงๆ ไอเทมใหญ่ frequence ก็จะสูงตาม = pronning ตัดกิ่ง มีสองแบบ คือมองจากข้างบน Apriori algorithm และมองจากข้างล่าง(มองจากตัวใหญ่ก่อน) Closed Algorithm&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;จากกฎ {A}: {A}-&amp;gt;{} ผิดเพราะซื้อเซตว่างมันคงแปลกๆ, {}-&amp;gt;{A} ผิดเพราะซื้อเซตว่างมันคงแปลกๆ
+  เราก็เลยจะไม่สนใจ 1-itemset จะสนใจ 2-itemset ขึ้นไป&lt;/p&gt;
+
+    &lt;p&gt;{A,C}: 	{A}-&amp;gt;{C} conf = 2/3  	(ยึดคนซื้อ A แล้วซื้อ C)&lt;/p&gt;
+
+    &lt;p&gt;{C}-&amp;gt;{A} conf = 1	(ยึดคนซื้อ C แล้วซื้อ A)&lt;/p&gt;
+
+    &lt;p&gt;ทั้งสองอันนี้เกิน min_support ที่เรากำหนดไว้ 0.5 สามารถกลายเป็นกฎได้&lt;/p&gt;
+
+    &lt;p&gt;{A,C}-&amp;gt;{}&lt;/p&gt;
+
+    &lt;p&gt;{ }-&amp;gt;{A,C}&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ทั้งสองอันนี้ผิดเพราะเซตว่างมันไม่ make sense&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ถ้าไอเทมสามอันเราจะได้ 6 กฎ
+  {A,B,C}: {A,B}-&amp;gt;{C},{A,C}-&amp;gt;{B} , {B,C}-&amp;gt;{A},{A}-&amp;gt;{B,C}, {B}-&amp;gt;{A,C} , {C}-&amp;gt;{B,A}
+  Lattice สำหรับไอเทมสามอัน&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+</feed>

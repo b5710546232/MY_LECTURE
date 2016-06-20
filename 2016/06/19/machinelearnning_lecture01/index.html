@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Lecture</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="/stylesheets/clean-blog.min.css" rel="stylesheet" />
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">My Lecture</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/contents">Contents</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+  <!-- Page Header -->
+<!-- Set your background image for this header on the line below. -->
+<header class="intro-header" style="background-image: url('/images/home-bg.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="post-heading">
+          <!-- <h1>safe must explore, and this is exploration at its greatest</h1>
+          <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+          <span class="meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</span> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <h1>MachineLearnning_Lecture01</h1>
+        <hr>
+
+        <ul>
+  <li>สอนเบสิกให้รู้ศัพท์ทางด้านนี้ ไม่เน้นดีเทล</li>
+  <li>งานอัลกอรัวๆ ไม่มีโค้ด</li>
+</ul>
+
+<h3 id="artificial-intelligence">ปัญญาประดิษฐ์ (Artificial intelligence)</h3>
+
+<ul>
+  <li>
+    <p>เช่น QA(Question Answering System)(siri, <a href="https://www.techtalkthai.com/ibm-watson-cognitive-computing-when-computers-act-as-humans/">ibm</a> watson), บอทเกม(alphago, หมากรุก), robot(asimo), รถยนต์ขับเคลื่อนอัตโนมัติ (มันควรจะตัดสินใจได้ว่าควรจะเบรคไหม ทำให้มันสามารถคิดได้เหมือนเรา)</p>
+  </li>
+  <li>คือ สามารถตัดสินใจได้ คิดได้ เหมือนมนุษย์</li>
+  <li>เน้นในเรื่องของความคิด ทำให้สิ่งที่ไม่มีชีวิต
+คิด take action อะไร หรือกระทำได้เหมือนมนุษย์</li>
+  <li>ประเภทของ AI มี 4 ประเภทหลัก</li>
+</ul>
+<center>
+<img src="/images/machinelearning-lect-01/table00.png " alt="Drawing" style="width: 500px;" />
+</center>
+
+<hr />
+
+<!-- url('/images/home-bg.jpg') -->
+<center>
+<img src="/images/machinelearning-lect-01/image02.png " alt="Drawing" style="width: 350px;" />
+</center>
+<!-- ![image 02 ]( /images/machinelearning-lect-01/image02.png ) -->
+
+<ul>
+  <li>reasoning หาเหตุผล￼</li>
+  <li>
+    <p>expert system สามารถตอบคำถามในเรื่องนั้นได้อัตโนมัติ</p>
+  </li>
+  <li>
+    <p>automate planning ระบบวางแผนอัตโนมัติ เช่น การเลือกเส้นทางของรถยนต์, ระบบการแก้ปัญหาแฉพาะหน้า (เช่น เจอทางตัน)</p>
+  </li>
+  <li>
+    <p>knowledge representation การแทนความรู้ให้คอมประมวลผลได้ เราจะต้องทำให้มันประหยัดที่ ใช่ง่าย ข้อมูลเก่าประสาน ผสมข้อมูลเดิมได้</p>
+  </li>
+  <li>
+    <p>motion and manipulation กลไกการเคลื่อนไหว</p>
+  </li>
+  <li>machine learning นำ history มาอธิบายกฎเกณฑ์</li>
+</ul>
+
+<h3 id="machine-learning-3-">machine learning 3 ประเภท</h3>
+<ol>
+  <li>Supervised learning เรียนรู้แบบมีคนช่วยสอน, การนำdata ไปผสมกับ template(เช่น บอกว่าเหตุการณ์แบบนี้คือฝนตกนะ) เพื่อการ predict (ต้องมี history เก่าๆ เช่น
+    <ul>
+      <li>feature คุณลักษณะต่างๆ เช่น ลม(ตอนเช้า กลางวัน เย็น) แดด รวมกันเป็น feature vector</li>
+    </ul>
+  </li>
+</ol>
+
+<ul>
+  <li>class ผลของการ predict ในแต่ละวัน -&gt; machine
+  จะเรียนรู้จากข้อมูลเก่าเหล่านี้</li>
+</ul>
+
+<p>[   …  ] = feature</p>
+
+<p>[   …  ]  → class1  ฝนตก</p>
+
+<p>[   …  ]  → class2  ฝนไม่ตก</p>
+
+<p>Vector ของ feature
+  1 elements คือ ฝนตกหรือเปล่า มีความชื้นเท่าไร</p>
+
+<ol>
+  <li>
+    <p>Unsupervised learning เราไม่ต้องสอนมัน เราแค่โยนข้อมูลให้เครื่องแบ่งข้อมูลให้ แล้วดูจากลักษณะ
+  Example : โยนข้อมูลมาว่า
+  { ผมยาว , ใส่เสื้อแขนยาว , ใส่กระโปรง} , { ผมสั้น,เสื้อแขนยาว ,ใส่กางเกง}
+  ระบบก็จะพยายามเรียน และแบ่ง class มา เราก็จะไปหาความหมายของมัน
+  อย่าง กลุ่มที่1 ใส่กระโปรง   กลุ่มที่2ใส่กางเกง
+  1+2=Semi-supervised learning ไกด์ก่อนแล้วให้มันทำส่วนที่ไม่ไกด์</p>
+  </li>
+  <li>
+    <p>Reinforcement learning เอาผลการทำนายบังคับให้มันเรียน ให้มันทำนายแล้วบอกว่าอะไรใช่ไม่ใช่ ซึ่งจะทำให้มันเก่งขึ้น</p>
+  </li>
+</ol>
+
+<h3 id="algorithm">Algorithm</h3>
+
+<h4 id="supervised-learning">supervised learning</h4>
+<p>เราจะนำไปทำนายการตัดสินใจ</p>
+
+<ul>
+  <li>decision tree ต้นไม้ที่ใช้ในการตัดสินใจ</li>
+</ul>
+
+<center>
+  <img src="/images/machinelearning-lect-01/image00.png " alt="Drawing" style="width: 700px;" />
+  </center>
+
+<p><!-- ![image 02 ]( /images/machinelearning-lect-01/image00.png ) --></p>
+
+<ul>
+  <li>
+    <p>เป็น เส้นทางการตัดสินใจ โดยข้อมูลสอนระบบ แล้วระบบจะสร้างเส้นทางออกมา
+  ฝนตก/ไม่ตก เป็น categorical</p>
+  </li>
+  <li>
+    <p>deep learning ก็คือ neural networks แต่ว่า มี</p>
+  </li>
+</ul>
+
+<p>** hidden layer หลายชั้น จาก ปกติ neural networks มี  layer เดียว **</p>
+
+<p>** hidden layer -&gt;node ที่ไม่ได้ติดต่อ input กับ output **</p>
+
+<ul>
+  <li>Artificial NN(Artificial neural network) ถอดแบบการเรียนรู้ของคนมาเป็นกฎแบบคอม คอมจะมีความเชื่อมโยงกันไปอย่างซับซ้อน</li>
+</ul>
+
+<center>
+  <img src="/images/machinelearning-lect-01/image03.png " alt="Drawing" style="width: 700px;" />
+  </center>
+
+<p><a href="http://futurehumanevolution.com/artificial-intelligence-future-human-evolution/artificial-neural-networks">http://futurehumanevolution.com/artificial-intelligence-future-human-evolution/artificial-neural-networks
+  </a></p>
+
+<p>คล้ายๆการเชื่อมโยงของเซลล์ประสาท เพิ่ม hidden layer ไปเรื่อยๆ
+  (พวกนี้จำลองการทำงานของเซลล์ประสาท ที่จะมี dendrite ขาเข้า กับ axon ขาออก)
+  - kNN
+  - naive bayes
+  - svm
+  - random forest tree หลายๆต้น
+  - GA (genetics algorithm) มองว่าข้อมูลเป็นสาย DNA ที่มา Cross/ไขว้ กัน ได้ข้อมูลสายใหม่ ทำหลายๆครั้ง ข้อมูลน่าจะดีกว่าเดิม
+  - LDA (Latent Dirichlet allocation)
+  - ACO(ant colony optimization) พลังมดช่วยกันแก้ปัญหา โดยธรรมชาติมดจะปล่อยฟีโรโมนตอนเดิน มดจะหาเส้นทางที่ดีที่สุดโดยการปล่อย มดไปฝูงนึง ดูว่าตัวไหนถึงก่อน เส้นทางที่มีฟีโรโมนที่ถูกปล่อยเยอะที่สุด =มีมดผ่านเยอะสุด จะเป็นเส้นทางที่ดีทีสุด
+  - regression ออกมาเป็น real value (numerical ตัวเลข) ใช้ทำนายหุ้น
+  - HMM ( Hidden Markov Model ) state machine</p>
+
+<h4 id="unsupervised-learning">Unsupervised learning</h4>
+<ul>
+  <li>k-means</li>
+  <li>HAC(hierarchical agglomerative Clustering)</li>
+  <li>STC(Suffix tree clustering)</li>
+</ul>
+
+<h4 id="reinforcement-learning">Reinforcement learning</h4>
+<ul>
+  <li>Q-learning</li>
+</ul>
+
+<p>apply machine learning กับ data + association rule discovery  —&gt; web mining</p>
+
+<p>apply machine learning กับ web —&gt; web mining</p>
+
+<p>apply machine learning กับ social media  —&gt; social media mining</p>
+
+<h3 id="data-mining">DATA MINING</h3>
+<ul>
+  <li>เอา machine learning มาประยุกต์กับ data</li>
+  <li>ใส่เทคนิค association rules discovery</li>
+  <li>แบ่งได้เป็น 3 ประเภท
+    <ol>
+      <li>การหากฎความสัมพันธ์(ของไอเทม) (association rules discovery)</li>
+      <li>Prediction (Supervised learning)</li>
+      <li>Description (unsupervised learning) การหาคำอธิบายข้อมูลว่ากลุ่มนี้หมายถึงอะไร</li>
+    </ol>
+  </li>
+  <li>ไม่ได้สนใจ reinforcement learning</li>
+</ul>
+
+<h4 id="association-rules-discovery">Association rules discovery</h4>
+<p>เป็นสิ่งที่ machine learning ไม่มี</p>
+
+<ul>
+  <li>1993,  Agrawal (of IBM)</li>
+  <li>การเพิ่มยอดขายของ</li>
+  <li>เริ่มจากการเก็บข้อมูลว่าลูกค้าซื้ออะไร</li>
+  <li>สนใจข้อมูล categorical แม้ว่าข้อมูลจะเป็นตัวเลขก็ตาม</li>
+  <li>รายการที่ลูกค้าซื้อ=transaction
+  พี่วิน = {น้ำดื่ม ,ผ้าอ้อม}</li>
+</ul>
+
+<p>พี่ภูมิ={เบียร์, ผ้าอ้อม} พี่ผึ้ง={เบียร์}</p>
+
+<p>หาโอกาสที่ลูกค้าจะซื้ออะไรกับอะไร ของที่คนซื้อไว้ด้วยกัน แล้วแต่เรา(คน)จะต้องตัดสินใจเองว่าจะไว้ของใกล้กันหรือห่างกัน ระบบนี้ทำหน้าที่ช่วยตัดสินใจให้ แต่ไม่ได้ตัดสินใจให้</p>
+
+<ul>
+  <li>ทุกกฎที่ได้มาจากการสำรวจก็ใช่ว่าจะดี มันจะมีค่า support(บ่งบอกถึงความถี่ มีทั้งต้นและปลาย,จำนวนtransactionที่มีของ/จำนวน transactionทั้งหมด) กับค่า confident (ค่าความเชื่อมั่น,จำนวนการทำตามกฎ) ยิ่งมากยิ่งดี</li>
+</ul>
+
+<center>
+  <img src="/images/machinelearning-lect-01/table02.png " alt="Drawing" style="width: 700px;" />
+  </center>
+
+<p>กำหนดให้</p>
+
+<ul>
+  <li>I=sample space={i1,i2,i3,….,im }</li>
+  <li>T=transaction={t1,t2,t3,…,tn}, ti = subset ของ I</li>
+  <li>rule x(antecedence)=&gt;y(consequence) โดยที่  x,y  เป็นจะต้องเป็นส่วนหนึ่งของ I และ intersect กันได้เซตว่าง (ไม่อินเตอร์เซคกัน)</li>
+  <li>itemset เซตของไอเทม {i1,i2,i5}:3-itemset  {i2}:1-itemset</li>
+  <li>k-itemset ไอเทมเซตขนาด k</li>
+  <li>
+    <p>ค่า support คำนวณให้itemset หรือ rule ก็ๆได้
+  เช่น sup({เบียร์})=⅔ 	sup({เบียร์} -&gt; {ผ้าอ้อม}) =1/3</p>
+  </li>
+  <li>ค่า confidence คำนวณให้กฎได้อย่างเดียว</li>
+  <li>แบ่งเป็นสองขั้นตอน</li>
+</ul>
+
+<center>
+  <img src="/images/machinelearning-lect-01/image04.png " alt="Drawing" style="width: 400px;" />
+  </center>
+
+<p><strong>ตัวอย่าง</strong>
+  ให้ f1={A,B,C} f2={A,C} f3={A,D} f4={B} ให้ min-confidence=0.5, min-support=0.5</p>
+
+<ul>
+  <li>เราจะได้ I=sample space = {A,B,C,D}</li>
+  <li>เราจะหา Frequent itemset discovery ได้จากการหาค่า support ซึ่งไอเทมที่เราจะหานั้นจะได้จากการที่เราวาด lacttice ออกมา</li>
+</ul>
+
+<center>
+  <img src="/images/machinelearning-lect-01/image05.png " alt="Drawing" style="width: 400px;" />
+  </center>
+
+<ul>
+  <li>ดู frequence ของแต่ละเซต</li>
+  <li>
+    <p>ความเร็วในการประมวลผลขึ้นกับจำนวนข้อมูลที่เราเอาไปคำนวณ -&gt; lattice ใหญ่=ช้า</p>
+  </li>
+  <li>เราจะทำการตัดช้อยส์ โดยถ้าไอเทมเล็กที่ frequence สูงๆ ไอเทมใหญ่ frequence ก็จะสูงตาม = pronning ตัดกิ่ง มีสองแบบ คือมองจากข้างบน Apriori algorithm และมองจากข้างล่าง(มองจากตัวใหญ่ก่อน) Closed Algorithm</li>
+  <li>
+    <p>จากกฎ {A}: {A}-&gt;{} ผิดเพราะซื้อเซตว่างมันคงแปลกๆ, {}-&gt;{A} ผิดเพราะซื้อเซตว่างมันคงแปลกๆ
+  เราก็เลยจะไม่สนใจ 1-itemset จะสนใจ 2-itemset ขึ้นไป</p>
+
+    <p>{A,C}: 	{A}-&gt;{C} conf = 2/3  	(ยึดคนซื้อ A แล้วซื้อ C)</p>
+
+    <p>{C}-&gt;{A} conf = 1	(ยึดคนซื้อ C แล้วซื้อ A)</p>
+
+    <p>ทั้งสองอันนี้เกิน min_support ที่เรากำหนดไว้ 0.5 สามารถกลายเป็นกฎได้</p>
+
+    <p>{A,C}-&gt;{}</p>
+
+    <p>{ }-&gt;{A,C}</p>
+  </li>
+</ul>
+
+<p>ทั้งสองอันนี้ผิดเพราะเซตว่างมันไม่ make sense</p>
+
+<ul>
+  <li>ถ้าไอเทมสามอันเราจะได้ 6 กฎ
+  {A,B,C}: {A,B}-&gt;{C},{A,C}-&gt;{B} , {B,C}-&gt;{A},{A}-&gt;{B,C}, {B}-&gt;{A,C} , {C}-&gt;{B,A}
+  Lattice สำหรับไอเทมสามอัน</li>
+</ul>
+
+      </div>
+    </div>
+  </div>
+</article>
+
+
+  <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          <!-- <li>
+          <a href="#">
+          <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+    <a href="#">
+    <span class="fa-stack fa-lg">
+    <i class="fa fa-circle fa-stack-2x"></i>
+    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+  </span>
+</a>
+</li>
+<li>
+<a href="#">
+<span class="fa-stack fa-lg">
+<i class="fa fa-circle fa-stack-2x"></i>
+<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li> -->
+</ul>
+<p class="copyright text-muted">Copyright &copy;2016 My Lecture</p>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+  <!-- jQuery -->
+  <script src="/javascripts/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="/javascripts/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="/javascripts/clean-blog.min.js"></script>
+
+</body>
